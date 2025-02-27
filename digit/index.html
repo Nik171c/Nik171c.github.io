@@ -1,23 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dianne Russell Digital Design</title>
-    <link rel="stylesheet" href="./css/main.css" />
-  </head>
 
-  <body class="body">
-    <header class="header">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dianne Russell Digital Design</title>
+  <link rel="stylesheet" href="./css/main.css" />
+</head>
+
+<body class="body">
+  <header class="header">
+    <div class="header__container">
       <a class="header__logo" href="index.html">
         <picture>
           <source media="(min-width: 768px)" srcset="./images/logo-tab.svg" />
 
-          <img
-            class="header__logo-image"
-            src="./images/logo-mobile.svg"
-            alt="Dianne Russell Digital Design Logo"
-          />
+          <img class="header__logo-image" src="./images/logo-mobile.svg" alt="Dianne Russell Digital Design Logo" />
         </picture>
       </a>
       <nav class="header__nav nav">
@@ -34,33 +32,25 @@
           </li>
         </ul>
       </nav>
-    </header>
-    <main class="main">
-      <section class="welcome">
-        <h1 class="welcome__title">
-          <span class="welcome__title-text welcome__title-text--bold"
-            >Dianne Russell</span
-          >
-          <span class="welcome__title-text welcome__title-text--light">
-            Digital Design</span
-          >
-        </h1>
-        <button class="welcome__scroll-button">
-          <span class="visually-hidden">Scroll down</span>
-        </button>
-        <picture>
-          <source
-            media="(min-width: 768px)"
-            srcset="./images/hero-photo-tab.jpg"
-          />
-          <img
-            class="welcome__image"
-            src="./images/hero-photo.jpg"
-            alt="Dianne Russell Digital Design"
-            width="478"
-            height="638"
-          />
-        </picture>
+    </div>
+  </header>
+  <main class="main">
+    <section class="welcome">
+      <h1 class="welcome__title">
+        <span class="welcome__title-text welcome__title-text--bold">Dianne Russell</span>
+        <span class="welcome__title-text welcome__title-text--light">
+          Digital Design</span>
+      </h1>
+      <button class="welcome__scroll-button">
+        <span class="visually-hidden">Scroll down</span>
+      </button>
+      <picture>
+        <source media="(min-width: 1200px)" srcset="./images/hero-photo-desk.jpg" width="1920" height="956" />
+        <source media="(min-width: 768px)" srcset="./images/hero-photo-tab.jpg" width="991" height="956" />
+        <img class="welcome__image" src="./images/hero-photo.jpg" alt="Dianne Russell Digital Design" width="478"
+          height="638" />
+      </picture>
+      <div class="welcome__container">
         <p class="welcome__text">
           From art to technology, we transform visions into extraordinary
           <strong>digital experiences</strong> - your design, our passion, an
@@ -91,146 +81,106 @@
             </li>
           </ul>
         </section>
-      </section>
-      <section class="clients">
-        <h2 class="visually-hidden">Our Clients</h2>
-        <ul class="clients__list">
-          <li class="clients__item">
-            <a class="clients__link" href="#">
-              <img
-                class="clients__logo"
-                src="./images/clients/cl1-icon.svg"
-                alt=""
-              />
-            </a>
-          </li>
-          <li class="clients__item">
-            <a class="clients__link" href="#">
-              <img
-                class="clients__logo"
-                src="./images/clients/cl2-icon.svg"
-                alt=""
-              />
-            </a>
-          </li>
-          <li class="clients__item">
-            <a class="clients__link" href="#">
-              <img
-                class="clients__logo"
-                src="./images/clients/cl3-icon.svg"
-                alt=""
-              />
-            </a>
-          </li>
-          <li class="clients__item">
-            <a class="clients__link" href="#">
-              <img
-                class="clients__logo"
-                src="./images/clients/cl4-icon.svg"
-                alt=""
-              />
-            </a>
-          </li>
-          <li class="clients__item">
-            <a class="clients__link" href="#">
-              <img
-                class="clients__logo"
-                src="./images/clients/cl5-icon.svg"
-                alt=""
-              />
-            </a>
-          </li>
-          <li class="clients__item">
-            <a class="clients__link" href="#">
-              <img
-                class="clients__logo"
-                src="./images/clients/cl6-icon.svg"
-                alt=""
-              />
-            </a>
-          </li>
-          <li class="clients__item">
-            <a class="clients__link" href="#">
-              <img
-                class="clients__logo"
-                src="./images/clients/cl7-icon.svg"
-                alt=""
-              />
-            </a>
-          </li>
-        </ul>
-      </section>
-      <section class="what">
-        <h2 class="what__title">What I do</h2>
-        <ul class="what__list">
-          <li class="what__item">
-            <h3 class="what__caption">Digital Design</h3>
-            <p class="what__text">
-              I craft captivating digital designs that captivate and motivate
-              your audience. Allow me to breathe life into your brand with my
-              expertise.
-            </p>
-          </li>
-          <li class="what__item">
-            <h3 class="what__caption">Art Direction</h3>
-            <p class="what__text">
-              My proficiency in art direction guarantees that your project
-              aligns with your brand, conveys your message effectively, and is
-              visually striking. Let's collaborate to narrate your story.
-            </p>
-          </li>
-          <li class="what__item">
-            <h3 class="what__caption">Interaction Design</h3>
-            <p class="what__text">
-              I have a specialization in creating user experiences that are not
-              only functional but also aesthetically pleasing and user-friendly.
-            </p>
-          </li>
-          <li class="what__item">
-            <h3 class="what__caption">Motion Design</h3>
-            <p class="what__text">
-              From dynamic logos to informative explainer videos, I infuse life
-              into your message through visually mesmerizing motion design.
-            </p>
-          </li>
-        </ul>
-      </section>
-      <section class="selected">
-        <h2 class="selected__title">Selected work</h2>
-        <ul class="selected__list albums">
-          <li class="albums__item">
-            <ul class="albums__list album">
-              <li class="album__item">
-                <a href="" class="album__link">
-                  <picture>
-                    <source
-                      media="(min-width: 768px)"
-                      srcset="./images/selected/selected-1-t.jpg"
-                    />
-                    <img
-                      src="./images/selected/selected-1.jpg"
-                      alt=""
-                      class="album__image"
-                    />
-                  </picture>
-                </a>
-              </li>
-              <li class="album__item">
-                <a href="" class="album__link">
-                  <picture>
-                    <source
-                      media="(min-width: 768px)"
-                      srcset="./images/selected/selected-2-t.jpg"
-                    />
-                    <img
-                      src="./images/selected/selected-2.jpg"
-                      alt=""
-                      class="album__image"
-                    />
-                  </picture>
-                </a>
-              </li>
-            </ul>
+      </div>
+    </section>
+    <section class="clients">
+      <h2 class="visually-hidden">Our Clients</h2>
+      <ul class="clients__list">
+        <li class="clients__item">
+          <a class="clients__link" href="#">
+            <img class="clients__logo" src="./images/clients/cl1-icon.svg" alt="" />
+          </a>
+        </li>
+        <li class="clients__item">
+          <a class="clients__link" href="#">
+            <img class="clients__logo" src="./images/clients/cl2-icon.svg" alt="" />
+          </a>
+        </li>
+        <li class="clients__item">
+          <a class="clients__link" href="#">
+            <img class="clients__logo" src="./images/clients/cl3-icon.svg" alt="" />
+          </a>
+        </li>
+        <li class="clients__item">
+          <a class="clients__link" href="#">
+            <img class="clients__logo" src="./images/clients/cl4-icon.svg" alt="" />
+          </a>
+        </li>
+        <li class="clients__item">
+          <a class="clients__link" href="#">
+            <img class="clients__logo" src="./images/clients/cl5-icon.svg" alt="" />
+          </a>
+        </li>
+        <li class="clients__item">
+          <a class="clients__link" href="#">
+            <img class="clients__logo" src="./images/clients/cl6-icon.svg" alt="" />
+          </a>
+        </li>
+        <li class="clients__item">
+          <a class="clients__link" href="#">
+            <img class="clients__logo" src="./images/clients/cl7-icon.svg" alt="" />
+          </a>
+        </li>
+      </ul>
+    </section>
+    <section class="what">
+      <h2 class="what__title">What I do</h2>
+      <ul class="what__list">
+        <li class="what__item">
+          <h3 class="what__caption">Digital Design</h3>
+          <p class="what__text">
+            I craft captivating digital designs that captivate and motivate
+            your audience. Allow me to breathe life into your brand with my
+            expertise.
+          </p>
+        </li>
+        <li class="what__item">
+          <h3 class="what__caption">Art Direction</h3>
+          <p class="what__text">
+            My proficiency in art direction guarantees that your project
+            aligns with your brand, conveys your message effectively, and is
+            visually striking. Let's collaborate to narrate your story.
+          </p>
+        </li>
+        <li class="what__item">
+          <h3 class="what__caption">Interaction Design</h3>
+          <p class="what__text">
+            I have a specialization in creating user experiences that are not
+            only functional but also aesthetically pleasing and user-friendly.
+          </p>
+        </li>
+        <li class="what__item">
+          <h3 class="what__caption">Motion Design</h3>
+          <p class="what__text">
+            From dynamic logos to informative explainer videos, I infuse life
+            into your message through visually mesmerizing motion design.
+          </p>
+        </li>
+      </ul>
+    </section>
+    <section class="selected">
+      <h2 class="selected__title">Selected work</h2>
+      <ul class="selected__list albums">
+        <li class="albums__item">
+          <ul class="albums__list albums__list--special album">
+            <li class="album__item">
+              <a href="" class="album__link">
+                <picture>
+                  <source media="(min-width: 768px)" srcset="./images/selected/selected-1-t.jpg" />
+                  <img src="./images/selected/selected-1.jpg" alt="" class="album__image" />
+                </picture>
+              </a>
+            </li>
+            <li class="album__item">
+              <a href="" class="album__link">
+                <picture>
+                  <source media="(min-width: 768px)" srcset="./images/selected/selected-2-t.jpg" />
+                  <img src="./images/selected/selected-2.jpg" alt="" class="album__image" />
+                </picture>
+              </a>
+            </li>
+          </ul>
+          <div class="album__block album__block--first">
             <h3 class="albums__title">Trinity</h3>
             <ul class="albums__hashes hashes">
               <li class="hashes__item">
@@ -241,66 +191,37 @@
               </li>
             </ul>
             <div class="albums__discover-container">
-              <a href="#" class="albums__discover"
-                >Discover
-                <svg
-                  width="24"
-                  height="34"
-                  viewBox="0 0 24 34"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M21.5879 17.0005L1.58789 17.0005"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="square"
-                    stroke-linejoin="round"
-                  />
-                  <path
-                    d="M16.333 23.667L22.9997 17.0003L16.333 10.3337"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="square"
-                    stroke-linejoin="round"
-                  />
+              <a href="#" class="albums__discover base-button">Discover
+                <svg width="24" height="34" viewBox="0 0 24 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M21.5879 17.0005L1.58789 17.0005" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="square" stroke-linejoin="round" />
+                  <path d="M16.333 23.667L22.9997 17.0003L16.333 10.3337" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="square" stroke-linejoin="round" />
                 </svg>
               </a>
             </div>
-          </li>
-          <li class="albums__item">
-            <ul class="albums__list album">
-              <li class="album__item">
-                <a href="" class="album__link">
-                  <picture>
-                    <source
-                      media="(min-width: 768px)"
-                      srcset="./images/selected/selected-3-t.jpg"
-                    />
-                    <img
-                      src="./images/selected/selected-3.jpg"
-                      alt=""
-                      class="album__image"
-                    />
-                  </picture>
-                </a>
-              </li>
-              <li class="album__item">
-                <a href="" class="album__link">
-                  <picture>
-                    <source
-                      media="(min-width: 768px)"
-                      srcset="./images/selected/selected-4-t.jpg"
-                    />
-                    <img
-                      src="./images/selected/selected-4.jpg"
-                      alt=""
-                      class="album__image"
-                    />
-                  </picture>
-                </a>
-              </li>
-            </ul>
+          </div>
+        </li>
+        <li class="albums__item">
+          <ul class="albums__list album">
+            <li class="album__item">
+              <a href="" class="album__link">
+                <picture>
+                  <source media="(min-width: 768px)" srcset="./images/selected/selected-3-t.jpg" />
+                  <img src="./images/selected/selected-3.jpg" alt="" class="album__image" />
+                </picture>
+              </a>
+            </li>
+            <li class="album__item">
+              <a href="" class="album__link">
+                <picture>
+                  <source media="(min-width: 768px)" srcset="./images/selected/selected-4-t.jpg" />
+                  <img src="./images/selected/selected-4.jpg" alt="" class="album__image" />
+                </picture>
+              </a>
+            </li>
+          </ul>
+          <div class="album__block">
             <h3 class="albums__title">Morpheus</h3>
             <ul class="albums__hashes hashes">
               <li class="hashes__item">
@@ -311,209 +232,164 @@
               </li>
             </ul>
             <div class="albums__discover-container">
-              <a href="#" class="albums__discover"
-                >Discover
-                <svg
-                  width="24"
-                  height="34"
-                  viewBox="0 0 24 34"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M21.5879 17.0005L1.58789 17.0005"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="square"
-                    stroke-linejoin="round"
-                  />
-                  <path
-                    d="M16.333 23.667L22.9997 17.0003L16.333 10.3337"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="square"
-                    stroke-linejoin="round"
-                  />
+              <a href="#" class="albums__discover base-button">Discover
+                <svg width="24" height="34" viewBox="0 0 24 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M21.5879 17.0005L1.58789 17.0005" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="square" stroke-linejoin="round" />
+                  <path d="M16.333 23.667L22.9997 17.0003L16.333 10.3337" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="square" stroke-linejoin="round" />
                 </svg>
               </a>
             </div>
-          </li>
-        </ul>
-        <div class="selected__link-container">
-          <a href="#" class="selected__link">All Work</a>
-        </div>
-      </section>
-      <section class="reviews">
-        <h2 class="reviews__title">My clients</h2>
-        <ul class="reviews__list">
-          <li class="reviews__item">
-            <a href="" class="reviews__logo">
-              <img src="./images/clients/cl2-icon.svg" alt="" />
-            </a>
-            <h3 class="reviews__caption">
-              Exceptional Web and Digital Design That Exceeded Expectations
-            </h3>
-            <p class="reviews__text">
-              Our website redesign and digital transformation went above and
-              beyond our wildest dreams. Dianne's attention to detail,
-              creativity, and unmatched design skills resulted in a visually
-              stunning and user-friendly online presence that left us in awe.
-            </p>
-            <div class="reviews__author">
-              <img
-                src="./images/persons/p1.png"
-                alt=""
-                class="reviews__avatar"
-              />
-              <div class="reviews__author-name">
-                <p class="reviews__name">Annette Black</p>
-                <p class="reviews__position">Marketing Coordinator</p>
-              </div>
+          </div>
+        </li>
+      </ul>
+      <div class="selected__link-container">
+        <a href="#" class="selected__link">All Work</a>
+      </div>
+    </section>
+    <section class="reviews">
+      <h2 class="reviews__title">My clients</h2>
+      <ul class="reviews__list">
+        <li class="reviews__item">
+          <a href="" class="reviews__logo">
+            <img src="./images/clients/cl2-icon.svg" alt="" />
+          </a>
+          <h3 class="reviews__caption">
+            Exceptional Web and Digital Design That Exceeded Expectations
+          </h3>
+          <p class="reviews__text">
+            Our website redesign and digital transformation went above and
+            beyond our wildest dreams. Dianne's attention to detail,
+            creativity, and unmatched design skills resulted in a visually
+            stunning and user-friendly online presence that left us in awe.
+          </p>
+          <div class="reviews__author">
+            <img src="./images/persons/p1.png" alt="" class="reviews__avatar" />
+            <div class="reviews__author-name">
+              <p class="reviews__name">Annette Black</p>
+              <p class="reviews__position">Marketing Coordinator</p>
             </div>
-          </li>
-          <li class="reviews__item">
-            <a href="" class="reviews__logo">
-              <img src="./images/clients/cl1-icon.svg" alt="" />
-            </a>
-            <h3 class="reviews__caption">
-              Art Direction that <br />
-              Perfectly Captured Our Essence
-            </h3>
-            <p class="reviews__text">
-              Collaborating with Dianne on our art direction was an absolute
-              delight. He not only listened to our ideas but also infused his
-              own creativity into the mix, resulting in a visual brand identity
-              that flawlessly encapsulated our essence.
-            </p>
-            <div class="reviews__author">
-              <img
-                src="./images/persons/p2.png"
-                alt=""
-                class="reviews__avatar"
-              />
-              <div class="reviews__author-name">
-                <p class="reviews__name">Ralph Edwards</p>
-                <p class="reviews__position">Software Development Manager</p>
-              </div>
+          </div>
+        </li>
+        <li class="reviews__item">
+          <a href="" class="reviews__logo">
+            <img src="./images/clients/cl1-icon.svg" alt="" />
+          </a>
+          <h3 class="reviews__caption">
+            Art Direction that <br />
+            Perfectly Captured Our Essence
+          </h3>
+          <p class="reviews__text">
+            Collaborating with Dianne on our art direction was an absolute
+            delight. He not only listened to our ideas but also infused his
+            own creativity into the mix, resulting in a visual brand identity
+            that flawlessly encapsulated our essence.
+          </p>
+          <div class="reviews__author">
+            <img src="./images/persons/p2.png" alt="" class="reviews__avatar" />
+            <div class="reviews__author-name">
+              <p class="reviews__name">Ralph Edwards</p>
+              <p class="reviews__position">Software Development Manager</p>
             </div>
-          </li>
-          <li class="reviews__item">
-            <a href="" class="reviews__logo">
-              <img src="./images/clients/cl4-icon.svg" alt="" />
-            </a>
-            <h3 class="reviews__caption">
-              Interaction Design Expertise that Delivered Beyond Measure
-            </h3>
-            <p class="reviews__text">
-              Dianne's expertise in interaction design elevated our app to new
-              heights of user-friendliness and intuitiveness. His meticulous
-              approach and imaginative thinking led to a product that far
-              exceeded our expectations.
-            </p>
-            <div class="reviews__author">
-              <img
-                src="./images/persons/p3.png"
-                alt=""
-                class="reviews__avatar"
-              />
-              <div class="reviews__author-name">
-                <p class="reviews__name">Jacob Jones</p>
-                <p class="reviews__position">Scrum Master</p>
-              </div>
+          </div>
+        </li>
+        <li class="reviews__item">
+          <a href="" class="reviews__logo">
+            <img src="./images/clients/cl4-icon.svg" alt="" />
+          </a>
+          <h3 class="reviews__caption">
+            Interaction Design Expertise that Delivered Beyond Measure
+          </h3>
+          <p class="reviews__text">
+            Dianne's expertise in interaction design elevated our app to new
+            heights of user-friendliness and intuitiveness. His meticulous
+            approach and imaginative thinking led to a product that far
+            exceeded our expectations.
+          </p>
+          <div class="reviews__author">
+            <img src="./images/persons/p3.png" alt="" class="reviews__avatar" />
+            <div class="reviews__author-name">
+              <p class="reviews__name">Jacob Jones</p>
+              <p class="reviews__position">Scrum Master</p>
             </div>
-          </li>
-          <li class="reviews__item">
-            <a href="" class="reviews__logo">
-              <img src="./images/clients/cl5-icon.svg" alt="" />
-            </a>
-            <h3 class="reviews__caption">
-              Captivating Motion Design that Breathed Life into Our Brand
-            </h3>
-            <p class="reviews__text">
-              Dianne's mastery of motion design is nothing short of
-              extraordinary. With his stunning animations, he breathed life into
-              our brand, leaving our audience thoroughly captivated.
-            </p>
-            <div class="reviews__author">
-              <img
-                src="./images/persons/p4.png"
-                alt=""
-                class="reviews__avatar"
-              />
-              <div class="reviews__author-name">
-                <p class="reviews__name">Cameron Williamson</p>
-                <p class="reviews__position">Software Tester</p>
-              </div>
+          </div>
+        </li>
+        <li class="reviews__item">
+          <a href="" class="reviews__logo">
+            <img src="./images/clients/cl5-icon.svg" width="175" height="36" alt="" />
+          </a>
+          <h3 class="reviews__caption">
+            Captivating Motion Design that Breathed Life into Our Brand
+          </h3>
+          <p class="reviews__text">
+            Dianne's mastery of motion design is nothing short of
+            extraordinary. With his stunning animations, he breathed life into
+            our brand, leaving our audience thoroughly captivated.
+          </p>
+          <div class="reviews__author">
+            <img src="./images/persons/p4.png" alt="" class="reviews__avatar" />
+            <div class="reviews__author-name">
+              <p class="reviews__name">Cameron Williamson</p>
+              <p class="reviews__position">Software Tester</p>
             </div>
-          </li>
-          <li class="reviews__item">
-            <a href="" class="reviews__logo">
-              <img src="./images/clients/cl6-icon.svg" alt="" />
-            </a>
-            <h3 class="reviews__caption">
-              Dianne Delivered a Website that Truly Showcases Our Business
-            </h3>
-            <p class="reviews__text">
-              Dianne's web design prowess has given us a website that not only
-              showcases our business but does so in a highly professional and
-              user-friendly manner. We couldn't be more thrilled with the final
-              result.
-            </p>
-            <div class="reviews__author">
-              <img
-                src="./images/persons/p5.png"
-                alt=""
-                class="reviews__avatar"
-              />
-              <div class="reviews__author-name">
-                <p class="reviews__name">Eleanor Pena</p>
-                <p class="reviews__position">Software Developer</p>
-              </div>
+          </div>
+        </li>
+        <li class="reviews__item">
+          <a href="" class="reviews__logo">
+            <img src="./images/clients/cl6-icon.svg" alt="" />
+          </a>
+          <h3 class="reviews__caption">
+            Dianne Delivered a Website that Truly Showcases Our Business
+          </h3>
+          <p class="reviews__text">
+            Dianne's web design prowess has given us a website that not only
+            showcases our business but does so in a highly professional and
+            user-friendly manner. We couldn't be more thrilled with the final
+            result.
+          </p>
+          <div class="reviews__author">
+            <img src="./images/persons/p5.png" alt="" class="reviews__avatar" />
+            <div class="reviews__author-name">
+              <p class="reviews__name">Eleanor Pena</p>
+              <p class="reviews__position">Software Developer</p>
             </div>
-          </li>
-          <li class="reviews__item">
-            <a href="" class="reviews__logo">
-              <img src="./images/clients/cl6-icon.svg" alt="" />
-            </a>
-            <h3 class="reviews__caption">
-              Dianne Delivers a Business-Showcasing Website
-            </h3>
-            <p class="reviews__text">
-              Dianne's mastery of web design has given our brand a vibrant new
-              lease on life. With precision and creativity, she transformed our
-              vision into a website that truly sets us apart from the
-              competition.
-            </p>
-            <div class="reviews__author">
-              <img
-                src="./images/persons/p6.png"
-                alt=""
-                class="reviews__avatar"
-              />
-              <div class="reviews__author-name">
-                <p class="reviews__name">Courtney Henry</p>
-                <p class="reviews__position">Software Development Manager</p>
-              </div>
+          </div>
+        </li>
+        <li class="reviews__item">
+          <a href="" class="reviews__logo">
+            <img src="./images/clients/cl8-icon.svg" alt="" />
+          </a>
+          <h3 class="reviews__caption">
+            Dianne Delivers a Business-Showcasing Website
+          </h3>
+          <p class="reviews__text">
+            Dianne's mastery of web design has given our brand a vibrant new
+            lease on life. With precision and creativity, she transformed our
+            vision into a website that truly sets us apart from the
+            competition.
+          </p>
+          <div class="reviews__author">
+            <img src="./images/persons/p6.png" alt="" class="reviews__avatar" />
+            <div class="reviews__author-name">
+              <p class="reviews__name">Courtney Henry</p>
+              <p class="reviews__position">Software Development Manager</p>
             </div>
-          </li>
-        </ul>
-      </section>
-      <section class="team">
-        <h2 class="team__title">Our Team</h2>
-        <ul class="team__list">
-          <li class="team__item">
+          </div>
+        </li>
+      </ul>
+    </section>
+    <section class="team">
+      <h2 class="team__title">Our Team</h2>
+      <ul class="team__list">
+        <li class="team__pair">
+          <div class="team__item">
             <h3 class="team__person">Tyra Dhillon</h3>
             <p class="team__position">Creative Director</p>
             <picture>
-              <img
-                src="./images/team/photo1.jpg"
-                alt="Tyra Dhillon"
-                class="team__photo"
-              />
+              <img src="./images/team/photo1.jpg" alt="Tyra Dhillon" class="team__photo" />
             </picture>
-          </li>
-            <section class="network">
-              <ul class="network__item>
+            <ul class="network">
               <li class="network__list">
                 <a class="network__link network__link--fb" href="#">
                   <span class="visually-hidden">Facebook</span>
@@ -535,19 +411,14 @@
                 </a>
               </li>
             </ul>
-          </section>
-
-          <li class="team__item">
+          </div>
+          <div class="team__item">
             <h3 class="team__person">Darcel Ballentine</h3>
             <p class="team__position">Brand Designer</p>
             <picture>
-              <img
-                src="./images/team/photo2.jpg"
-                alt="Darcel Ballentine"
-                class="team__photo"
-              />
+              <img src="./images/team/photo2.jpg" alt="Darcel Ballentine" class="team__photo" />
             </picture>
-            <ul class="network__list">
+            <ul class="network">
               <li class="network__item">
                 <a class="network__link network__link--fb" href="#">
                   <span class="visually-hidden">Facebook</span>
@@ -569,17 +440,16 @@
                 </a>
               </li>
             </ul>
-          </li>
-          <li class="team__item">
+          </div>
+        </li>
+        <li class="team__pair">
+          <div class="team__item">
             <h3 class="team__person">Brittni Lando</h3>
             <p class="team__position">Fashion Designer</p>
-            <picture
-              ><img
-                src="./images/team/photo3.jpg"
-                alt="Brittni Lando"
-                class="team__photo"
-            /></picture>
-            <ul class="network__list">
+            <picture>
+              <img src="./images/team/photo3.jpg" alt="Brittni Lando" class="team__photo" />
+            </picture>
+            <ul class="network">
               <li class="network__item">
                 <a class="network__link network__link--fb" href="#">
                   <span class="visually-hidden">Facebook</span>
@@ -601,17 +471,14 @@
                 </a>
               </li>
             </ul>
-          </li>
-          <li class="team__item">
+          </div>
+          <div class="team__item">
             <h3 class="team__person">Roselle Ehrman</h3>
             <p class="team__position">Graphic Designer</p>
-            <picture
-              ><img
-                src="./images/team/photo4.jpg"
-                alt="Roselle Ehrman"
-                class="team__photo"
-            /></picture>
-            <ul class="network__list">
+            <picture>
+              <img src="./images/team/photo4.jpg" alt="Roselle Ehrman" class="team__photo" />
+            </picture>
+            <ul class="network">
               <li class="network__item">
                 <a class="network__link network__link--fb" href="#">
                   <span class="visually-hidden">Facebook</span>
@@ -633,17 +500,16 @@
                 </a>
               </li>
             </ul>
-          </li>
-          <li class="team__item">
+          </div>
+        </li>
+        <li class="team__pair">
+          <div class="team__item">
             <h3 class="team__person">Jane Cooper</h3>
             <p class="team__position">Creative Director</p>
-            <picture
-              ><img
-                src="./images/team/photo5.jpg"
-                alt="Jane Cooper"
-                class="team__photo"
-            /></picture>
-            <ul class="network__list">
+            <picture>
+              <img src="./images/team/photo5.jpg" alt="Jane Cooper" class="team__photo" />
+            </picture>
+            <ul class="network">
               <li class="network__item">
                 <a class="network__link network__link--fb" href="#">
                   <span class="visually-hidden">Facebook</span>
@@ -665,17 +531,14 @@
                 </a>
               </li>
             </ul>
-          </li>
-          <li class="team__item">
+          </div>
+          <div class="team__item">
             <h3 class="team__person">Robert Fox</h3>
             <p class="team__position">Brand Designer</p>
-            <picture
-              ><img
-                src="./images/team/photo6.jpg"
-                alt="Robert Fox"
-                class="team__photo"
-            /></picture>
-            <ul class="network__list">
+            <picture>
+              <img src="./images/team/photo6.jpg" alt="Robert Fox" class="team__photo" />
+            </picture>
+            <ul class="network">
               <li class="network__item">
                 <a class="network__link network__link--fb" href="#">
                   <span class="visually-hidden">Facebook</span>
@@ -697,51 +560,73 @@
                 </a>
               </li>
             </ul>
-          </li>
-        </ul>
-        <h3 class="join__title">Join the team</h3>
-        <p class="join__branding">Desire to influence the future of branding?</p>
-        <div class="find__job">
-          <a href="#" class="selected__link">Find Job</a>
-        </div>
-      </section>
-      <section class="contact">
-        <h2 class="contact__title">Contact</h2>
-          <h3 class="contact__story">
-            Let's start building your brand's unique story together.
-          </h3>
-        <p class="contact__info">
-            Want to see what a difference a strong brand can make? Request a consultation today.
-          </p>
-          <div class="contact__touch">
-        <a href="#" class="selected__link">Get in touch</a>
           </div>
-      </section>
-    </main>
-    <footer>
-      <h3 class="kunturi__title">&copy Made by <strong>Kunturi Design</strong>. All rights reserved.</h3>
-      <ul class="kunturi__list">
-              <li class="kunturi__item">
-                <a class="kunturi__link kunturi__link--fb" href="#">
-                  <span class="visually-hidden">Facebook</span>
-                </a>
-              </li>
-              <li class="kunturi__item">
-                <a class="kunturi__link kunturi__link--tw" href="#">
-                  <span class="visually-hidden">Twitter</span>
-                </a>
-              </li>
-              <li class="kunturi__item">
-                <a class="kunturi__link kunturi__link--in" href="#">
-                  <span class="visually-hidden">LinkedIn</span>
-                </a>
-              </li>
-              <li class="kunturi__item">
-                <a class="kunturi__link kunturi__link--dr" href="#">
-                  <span class="visually-hidden">Facebook</span>
-                </a>
-              </li>
-            </ul>
-    </footer>
-  </body>
+        </li>
+        <li class="join">
+          <h3 class="join__title">Join the team</h3>
+          <p class="join__branding">Desire to influence the&nbsp;future of branding?</p>
+          <div class="join__job">
+
+            <a href="#" class="base-button join__link">Find Job
+              <svg width="24" height="34" viewBox="0 0 24 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M21.5879 17.0005L1.58789 17.0005" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="square" stroke-linejoin="round" />
+                <path d="M16.333 23.667L22.9997 17.0003L16.333 10.3337" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="square" stroke-linejoin="round" />
+              </svg>
+            </a>
+          </div>
+        </li>
+      </ul>
+
+    </section>
+    <section class="contact">
+      <h2 class="contact__title">Contact</h2>
+      <div>
+        <h3 class="contact__story">
+          Let's start building your brand's unique story together.
+        </h3>
+        <p class="contact__info">
+          Want to see what a difference a strong brand can make? Request a consultation today.
+        </p>
+        <div class="contact__touch">
+          <a href="#" class="base-button contact__link">Get in Touch
+            <svg width="24" height="34" viewBox="0 0 24 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M21.5879 17.0005L1.58789 17.0005" stroke="currentColor" stroke-width="2" stroke-linecap="square"
+                stroke-linejoin="round" />
+              <path d="M16.333 23.667L22.9997 17.0003L16.333 10.3337" stroke="currentColor" stroke-width="2"
+                stroke-linecap="square" stroke-linejoin="round" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <h3 class="footer__title">&copy Made by <strong>Kunturi Design</strong>. All rights reserved.</h3>
+    <ul class="network footer__list">
+      <li class="network__item">
+        <a class="network__link network__link--fb" href="#">
+          <span class="visually-hidden">Facebook</span>
+        </a>
+      </li>
+      <li class="network__item">
+        <a class="network__link network__link--tw" href="#">
+          <span class="visually-hidden">Twitter</span>
+        </a>
+      </li>
+      <li class="network__item">
+        <a class="network__link network__link--in" href="#">
+          <span class="visually-hidden">LinkedIn</span>
+        </a>
+      </li>
+      <li class="network__item">
+        <a class="network__link network__link--dr" href="#">
+          <span class="visually-hidden">Facebook</span>
+        </a>
+      </li>
+    </ul>
+  </footer>
+</body>
+
 </html>
