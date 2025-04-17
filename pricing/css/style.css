@@ -1,0 +1,317 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.container {
+    width: 1164px;
+    margin: 0 auto;
+    background-color: #3A4965;
+    padding: 22px;
+    margin-bottom: 45px;
+}
+
+.table {
+    width: 100%;
+    background-color: #f2f2f2;
+    border-collapse: collapse;
+    border: 1px solid #2a2a2a;
+    border-spacing: 0;
+    font-family: "Arimo", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #484848;
+}
+
+th,
+td {
+    border-color: rgba(42, 42, 42, 0.435);
+    border-width: 1px;
+    border-style: solid;
+    width: 25%;
+}
+
+thead {
+    background-color: #FAFAFA;
+}
+
+tbody tr:nth-child(2n) {
+    background-color: #E3E3E3;
+}
+
+
+.plan__nav {
+    padding: 0 0 10px;
+}
+
+
+
+.plan__title {
+    font-weight: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    display: block;
+    margin-bottom: 2px;
+    padding-top: 10px;
+}
+
+.plan__plan {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 28px;
+    display: block;
+}
+
+.colored-header {
+    font-family: "Arimo", Arial, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: normal;
+    padding-top: 23px;
+    padding-bottom: 20px;
+}
+
+.colored-header-big {
+    font-family: "Arimo", Arial, sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: normal;
+}
+
+.green {
+    background-color: #89C331;
+}
+
+.red {
+    background-color: #F04A56;
+}
+
+.blue {
+    background-color: #20807C;
+}
+
+.complex-price {
+    display: flex;
+    color: #484848;
+}
+
+.price-text {
+    font-family: "Arimo", Arial, sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 28px;
+    text-transform: uppercase;
+
+    padding: 27px 2px 0;
+}
+
+.price-cent {
+    font-family: "Arimo", Arial, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.price-period {
+    font-family: "Arimo", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-transform: uppercase;
+    margin-top: -7px;
+    padding-left: 6px;
+
+}
+
+.price-ceil {
+    padding: 4px 17px 12px;
+}
+
+.spec-options {
+    font-family: "Arimo", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #484848;
+    padding: 22px 0 23px;
+    vertical-align: middle;
+}
+
+.options-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.spec-options--basic {
+    background-color: #F2F2F2;
+}
+
+.spec-options--classic {
+    background-color: #EEEEEE;
+}
+
+.spec-options--gray {
+    background-color: #E3E3E3;
+}
+
+.spec-options--white {
+    background-color: #FAFAFA;
+}
+
+.spec-options--black {
+    background-color: #DDDDDD;
+    padding: 43px 0 45px;
+}
+
+.spec-options--origin {
+    background-color: #F4F4F4;
+}
+
+
+
+
+
+tfoot td {
+    padding: 44px 0 43px;
+}
+
+.spec-link {
+    position: relative;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 19px 18px 19px;
+    min-width: 197px;
+    border-radius: 5px;
+}
+
+.spec-link::before {
+    content: "";
+    position: absolute;
+    bottom: 3px;
+    left: 3px;
+    height: 7px;
+    width: calc(100% - 6px);
+    border-radius: 0 0 6px 6px;
+}
+
+.spec-link--black {
+    background-color: #484848;
+}
+
+.spec-link--black::before {
+    background-color: #393939;
+}
+
+.spec-link--green {
+    background-color: #89C331;
+}
+
+.spec-link--green::before {
+    background-color: #79B027;
+}
+
+
+.spec-link--red {
+    background-color: #F04A56;
+}
+
+.spec-link--red::before {
+    background-color: #DF3A46
+}
+
+.spec-link--blue {
+    background-color: #20807C;
+}
+
+.spec-link--blue::before {
+    background-color: #16736F;
+}
+
+.spec-options__row {
+    padding: 45px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.wrapper {
+    width: 1204px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #E3E3E3;
+}
+
+.table__plan {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #2a2a2a;
+    border-spacing: 0;
+    font-family: "Arimo", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #484848;
+}
+
+
+th,
+td {
+    border-color: rgba(42, 42, 42, 0.435);
+    border-width: 1px;
+    border-style: solid;
+    width: 25%;
+}
+
+thead {
+    background-color: #FAFAFA;
+}
+
+tbody tr:nth-child(2n) {
+    background-color: #E3E3E3;
+}

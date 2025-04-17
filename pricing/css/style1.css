@@ -1,0 +1,183 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.container {
+    width: 1204px;
+    margin: 0 auto;
+    background-color: #3A4965;
+    padding: 22px;
+    margin-top: 20px;
+}
+
+.table {
+    width: 100%;
+    background-color: #f2f2f2;
+    border-collapse: collapse;
+    border: 1px solid #2a2a2a;
+    border-spacing: 0;
+    font-family: "Arimo", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #484848;
+}
+
+thead th:nth-child(2n) {
+    background-color: #E3E3E3;
+}
+
+
+th,
+td {
+    border-color: rgba(42, 42, 42, 0.435);
+    border-width: 1px;
+    border-style: solid;
+    width: 160px;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+    padding: 32px 0;
+}
+
+th {
+    padding: 16px 0;
+}
+
+.main__first {
+    border-top: 22px solid #3A4965;
+}
+
+
+tbody td:nth-child(2n) {
+    background-color: #E3E3E3;
+}
+
+
+.complex {
+    width: 200px;
+    padding-top: 15px;
+    vertical-align: top;
+    padding-bottom: 9px;
+}
+
+.complex__green {
+    background-color: #89C331;
+}
+
+.complex__raud {
+    background-color: #F04A56;
+}
+
+.complex__blue {
+    background-color: #20807C;
+}
+
+
+.price-container {
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: center;
+    margin-bottom: 12px;
+}
+
+.price-number {
+    display: flex;
+    align-items: flex-start;
+}
+
+.price-title {
+    margin-bottom: 10px;
+    font-family: "Arimo", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.price-dollar {
+    font-family: "Arimo", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.price-cent {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    text-transform: uppercase;
+    text-align: left;
+    margin-top: -10px;
+    color: #FFFFFF;
+}
+
+.price-period {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 28px;
+    text-transform: uppercase;
+    padding-left: 6px;
+    display: flex;
+    color: #FFFFFF;
+}
+
+.price-link {
+    text-decoration: none;
+    font-family: "Arimo", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #484848;
+    padding: 8px 18px 8px 19px;
+    border-radius: 7px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: inline-block;
+    width: 148px;
+
+}
+
+
+.plan__title {
+    font-weight: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 28px;
+    display: block;
+    margin-bottom: 2px;
+    padding-top: 10px;
+}
+
+.plan__plan {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    display: block;
+}
+
+.main__options {
+    vertical-align: top;
+    padding-top: 60px;
+    padding-bottom: 58px;
+}
+
+.main__options span {
+    display: block;
+}
+
+.main__options span:first-child {
+    margin-bottom: 10px;
+}
