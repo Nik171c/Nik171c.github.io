@@ -1,0 +1,369 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.header {
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #FFFFFF;
+
+}
+
+.body {
+    padding-top: 134px;
+    background-color: #EEEEEF;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #10BBD5;
+    padding-top: 16px;
+    padding-bottom: 14px;
+}
+
+.container__header {
+    width: 1296px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    position: relative;
+    padding: 21px;
+}
+
+.nav__logo {
+    display: inline-block;
+    position: absolute;
+    top: 4px;
+    left: 0;
+    color: #F8FDFE;
+
+}
+
+.wrapper {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 9px;
+}
+
+.shopping__price {
+    font-family: "Cabin", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #F8FDFE;
+    padding-top: 11px;
+}
+
+.shopping-cart {
+    background-image: url("../image/shopping-cart-1.svg");
+    border: none;
+    background-color: inherit;
+    background-repeat: no-repeat;
+    min-width: 40px;
+    height: 40px;
+    display: inline-block;
+    padding: 1px 0 10px 6px;
+    background-position: center;
+}
+
+.wheels-icon {
+    display: flex;
+    align-items: flex-end;
+}
+
+
+
+.menu__category {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 4px 0;
+
+    width: 1296px;
+    margin: 0 auto;
+}
+
+.menu__content {
+    font-family: "Cabin", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    padding: 3px 0 0 1px;
+}
+
+.menu__list {
+    display: flex;
+    justify-content: flex-end;
+    gap: 40px;
+    padding: 4px 0 0 0;
+}
+
+.menu__link {
+    text-decoration: none;
+    display: flex;
+    font-family: "Cabin", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+
+.book {
+    width: 1296px;
+    margin: 0 auto;
+}
+
+.book__container {
+    width: 242px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.book__title {
+    font-family: "Cabin", Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    color: #1F1F1F;
+    border-bottom: 1px solid #A8A8A8;
+    margin-bottom: 24px;
+    padding: 2px 0 23px;
+}
+
+
+
+.book__card {
+    display: grid;
+    grid-template-columns: repeat(4, 305px);
+    gap: 32px 25px;
+    padding-top: 0;
+    padding-bottom: 20px;
+    margin-bottom: 99px;
+}
+
+
+.book__item {
+    width: 304px;
+    border: 1px solid #A8A8A8;
+    background-color: #fff;
+    padding: 32px 29px;
+    position: relative;
+}
+
+.book__link {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 17px;
+}
+
+.book__image {
+    display: block;
+}
+
+.book__info {
+    display: flex;
+    text-decoration: none;
+    font-family: "Cabin", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    color: #1F1F1F;
+    border-bottom: 1px solid #A8A8A8;
+}
+
+.book__content {
+    font-family: "Cabin", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #8E8E8E;
+    margin-bottom: 10px;
+}
+
+.book__price {
+    font-family: "Cabin", Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: #E90000;
+    margin-bottom: 15px;
+}
+
+.book__price-black {
+    font-family: "Cabin", Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: #8E8E8E;
+    padding-left: 20px;
+    margin-bottom: 15px;
+    text-decoration: line-through;
+}
+
+.book__btn {
+    font-family: "Cabin", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    vertical-align: middle;
+    color: #F8FDFE;
+    background-color: #4C394E;
+    text-decoration: none;
+    padding: 8px 74px;
+    display: flex;
+    border-radius: 4px;
+    margin: 14px 0 0 0;
+}
+
+.book__btn:hover {
+    background-color: #744978;
+}
+
+.book__btn-green {
+    background-color: #4D762D;
+    padding: 8px 97px;
+    display: flex;
+    text-decoration: none;
+    font-family: Cabin;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #F8FDFE;
+}
+
+.book__btn-green:hover {
+    background-color: #6DB236;
+}
+
+.book__marks {
+    position: absolute;
+    top: 31px;
+    left: 31px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.mark {
+    display: inline-block;
+    padding: 4px 8px;
+    font-family: "Cabin", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #F8FDFE;
+    border-radius: 4px;
+}
+
+.mark--hit {
+    background-color: #4200FF;
+
+}
+
+.mark--new {
+    background-color: #AF39E7;
+}
+
+.mark--off {
+    background-color: #EA33C0;
+}
+
+.discound__label {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #4200FF;
+    color: #F8FDFE;
+    padding: 5px 10px;
+    font-family: "Cabin", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.discound__label-violet {
+    background-color: #AF39E7;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #F8FDFE;
+    padding: 5px 10px;
+    font-family: "Cabin", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.discound__label-rose {
+    background-color: #EA33C0;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #F8FDFE;
+    padding: 5px 10px;
+    font-family: "Cabin", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.chat__btn {
+    background-color: #10BBD5;
+    padding: 10px;
+    border-radius: 50%;
+    border: none;
+    position: fixed;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1000;
+}
+
+.chat__btn img {
+    transition: all 0.5s ease;
+}
+
+.chat__btn:hover img {
+    transform: rotate(30deg);
+}
+
+.chat {
+    background-color: #F8FDFE;
+}
+
+.footer__content {
+    background-color: #4C394E;
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 52px 32px 0;
+    font-family: "Cabin", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #F8FDFE;
+}
+
+.footer__year {
+    padding-left: 55px;
+}
