@@ -1,0 +1,21 @@
+.mark {
+    display: inline-block;
+    padding: 4px 8px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #F8FDFE;
+    border-radius: 4px;
+}
+
+.mark--hit {
+    background-color: #4200FF;
+}
+
+.mark--new {
+    background-color: #AF39E7;
+}
+
+.mark--off {
+    background-color: #EA33C0;
+}
